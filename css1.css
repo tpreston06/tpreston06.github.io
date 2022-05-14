@@ -1,0 +1,78 @@
+/* .redbox > div > img {
+width: 100%
+height: 100%
+} */
+
+/* .redbox > div{
+  width: 50%
+  height: 50%
+} */
+
+.redbox{
+  height: 700px;
+  background-color: red;
+  border: solid blue;
+}
+
+.column{
+  width: 80px;
+  padding: 2px;
+}
+
+.boxlogo{
+  box-sizing: border-box;
+  background-color: red;
+  height: 9%;
+  border: 4px;
+}
+
+.navbar{
+  cursor:pointer;
+  margin: center;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.button {
+    cursor:pointer;
+    border-radius: 4px;
+    color: blue;
+    background-color: lightgrey;
+    float: left;
+    align-items: center;
+    margin-left: 12%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.button : hoover{
+  background-color: orange;
+  color: orange;
+}
+
+.hikingfuji{
+  border: 3px solid red;
+  float:left;
+  margin-right: 20%;
+}
+
+div : p {
+  border: 3px sold red;
+  height: 50%;
+  width: 75%;
+}
+
+.heading{
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 10px 12px 13px red;
+    border: 8px solid red;
+    padding: 100px 10px 100px 30px;
+    /* padding-top: 100px; */
+    /* padding-right: 10px; */
+    padding-bottom: 100px;
+    padding-left: 30px;
+    margin: 10% 30%;
+}
