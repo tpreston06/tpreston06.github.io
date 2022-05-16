@@ -1,0 +1,71 @@
+a{
+  background-color: lightgray;
+  text-decoration: none;
+  border-radius: 4px;
+  border: blue;
+}
+
+.item{
+  background-color: white;
+  border: 3px solid red;
+  width:30%;
+  float: left;
+  margin-left: 3%;
+}
+
+.messagearea{
+  background-color: white;
+  width:50%;
+  margin:auto;
+  text-align: center;
+  margin-top: 0;
+}
+
+.mdlwindow1 {
+  background-color: rgba(10, 80, 194, 0.6);
+  position: fixed;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right:0;
+  opacity:0;
+  pointer-events: none;
+}
+
+.mdlwindow1:target{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.mdlwindow2{
+  background-color: rgba(2, 99, 4, 0.6);
+  position: fixed;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right:0;
+  opacity:0;
+  pointer-events: none;
+}
+
+.mdlwindow2:target{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+.mdlwindow3{
+  background-color: rgba(242, 146, 19, 0.6);
+  position: fixed;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right:0;
+  opacity:0;
+  pointer-events: none;
+}
+
+.mdlwindow3:target{
+  opacity: 1;
+  pointer-events: auto;
+}
